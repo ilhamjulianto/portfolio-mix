@@ -1,0 +1,128 @@
+html, body {
+            height: 100%;
+            font-family: Lato;
+        }
+        .bg-full-page {
+            display: table;
+            width: 100%;
+            height: 100vh;
+            background-image: url('img/thumbs/bk.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+
+        .bg-parallax {
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url('img/thumbs/parallax.jpg');
+        }
+
+        .overlay {
+            position: unset;
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+        }
+
+        .overlay-footer {
+            position: unset;
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+        }
+
+        .overlay-table {
+            display: table !important;
+        }
+
+        .nav-transparent {
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+            display: block;
+        }
+
+        .hr-top {
+            margin: auto;
+            width: 20%;
+            border: 0.1rem solid white;
+            border-radius: 5px;
+        }
+
+        .middle {
+            text-align: center;
+            display: block;
+        }
+
+        .v-align {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            display: block;
+        }
+
+        .img-shadow {
+            -webkit-filter: drop-shadow(5px 5px 5px #222);
+            filter: drop-shadow(5px 5px 5px #222);
+        }
+
+        .title {
+            font-size: 10vmin;
+            text-align: center;
+        }
+
+        .subtitle {
+            font-size: 5vmin;
+        }
+
+        .container-sm {
+            width: 60%;
+        }
+
+        .bd-title {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        .wrap {
+            word-wrap: break-word;
+        }
+
+        .h-83 {
+            height: 84.9%;
+        }
+        
+        .rotate {
+
+        }
+
+        .rotate:hover {
+            transform: rotate(360deg);
+            -webkit-animation-duration: 0.5s;
+            -webkit-transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+        }
+
+        .animated-rotate {
+            transform: rotate(360deg);
+            -webkit-animation-duration: 0.5s;
+            -webkit-transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+        }

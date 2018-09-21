@@ -1,0 +1,88 @@
+.nav-link {
+      color: rgba(255,255,255,0.5);  
+    }
+
+    .nav-link:hover {
+      color: rgba(255,255,255,1);
+    }
+
+    .navbar-brand {
+        color: white;
+    }
+
+    .navbar-brand:hover {
+        color: white;
+    }
+
+    .bd-text-purple-bright {
+        color: rgb(121, 82, 179);
+        font-size: 4.3rem;
+    }
+
+    .bd-masthead {
+        padding: 5rem 15px;
+    }
+
+    .bd-masthead-followup {
+        margin: 0;
+        padding: 7rem 15px;
+    }
+
+    .btn-lg {
+        padding: 15px 4.5rem;
+    }
+
+    .btn-bd-primary {
+        color: rgb(121, 82, 179);
+        border: 1px solid rgb(121, 82, 179);
+    }
+    .btn-bd-primary:hover {
+        background-color: rgb(121, 82, 179);
+        color: white;
+    }
+
+    .nb {
+        color: rgb(51, 102, 102);
+    }
+
+    .dollar {
+        color: rgb(0, 0, 153);
+    }
+
+    .half-rule {
+        width: 6rem;
+        margin: 2.5rem 0;
+    }
+
+    .bd-footer {
+        font-size: 85%;
+    }
+
+    .footer-links {
+        padding: 0;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-links li {
+        display: inline-flex;
+        list-style: none;
+        margin-right: 2rem;
+    }
+
+    .footer-links a {
+        color: #6c757d;
+    }
+
+    .footer-links a:hover {
+        color: #007bff;
+    }
+
+    .bd-footer p {
+        margin: 0;
+    }
+
+    .navbar-nav-svg {
+        width: 1rem;
+        height: 1rem;;
+    }
